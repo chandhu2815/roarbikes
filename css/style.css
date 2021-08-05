@@ -1,0 +1,168 @@
+html{
+    height: max-content;
+    background-image: linear-gradient(#FC5E55,#FA4083);
+    background-size: cover;
+}
+h{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+p{
+    color: white;
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2rem;
+    margin-top: 20px;
+
+}
+h2{
+    color: white;
+    font-size: 2.2rem;
+    margin-top: 1.25rem;
+}
+body{
+    width: 80%;
+    margin: auto;
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    
+}
+header{
+    min-height: 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.headerlogo{
+    justify-content: flex-start;
+}
+/* .headermenu{
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+} */
+.navbutton{
+    font-family: 'Playfair Display', serif;
+    background-color:transparent;
+    border:1px solid white;
+    padding: 10px 30px;
+    width: 100;
+    display: inline-block;
+    position: relative;
+}
+.navbutton a{
+    color: white;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color:black;
+}
+.dropdown{
+    display: none; 
+    min-width: 200px; 
+    position:absolute;
+    text-align: center;
+    z-index: 1;
+}
+.navbutton:hover .dropdown{
+    display:block;
+}
+.dropdown .navbutton{
+    width: 100px;
+    margin-left: -60px;
+    background-color:rgba(255, 255, 255, 0.265);
+    margin-bottom: 10px;
+}
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.mainbox1{
+    flex: 2;
+
+}
+.custombutton{
+    text-decoration: none;
+    color:#FA4083;
+    background-color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.333);
+}
+.custombutton:hover{
+    background-color: rgba(172, 255, 47, 0.612);
+    transition-duration: 500ms;
+    padding: 10px 40px;
+    transition-duration: 1s;
+}
+.mainbox2{
+    flex:1;
+    text-align: right;
+}
+.mainbox2 img{
+    width: 100%;
+}
+.cards{
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.card1{
+    background-image: url(images/image-background-card1-b.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.53);
+}
+.card2{
+    background-image: url(images/image-background-card2-b.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.53);
+}
+.card3{
+    background-image: url(images/image-background-card3-b.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.53);
+}
+.cards a{
+    text-decoration: none;
+}
+.card1,.card2,.card3{
+    padding: 30px 20px 30px 30px;
+    box-sizing: border-box;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.tbox1 , .tbox2 ,.tbox3 ,.tbox4 ,.tbox5,.tbox6{
+    width: 47%;
+    border: 1px solid white;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
