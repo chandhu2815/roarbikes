@@ -24,7 +24,7 @@ h2{
 body{
     width: 80%;
     margin: auto;
-    background-image: url(images/image-lion-background.png);
+    background-image: url(../images/image-lion-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -122,7 +122,7 @@ main{
     margin-bottom: 30px;
 }
 .card1{
-    background-image: url(images/image-background-card1-b.jpg);
+    background-image: url(../images/image-background-card1-b.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -130,7 +130,7 @@ main{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.53);
 }
 .card2{
-    background-image: url(images/image-background-card2-b.jpg);
+    background-image: url(../images/image-background-card2-b.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -138,7 +138,7 @@ main{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.53);
 }
 .card3{
-    background-image: url(images/image-background-card3-b.jpg);
+    background-image: url(../images/image-background-card3-b.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
